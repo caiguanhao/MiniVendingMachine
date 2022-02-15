@@ -12,7 +12,6 @@
 		DA73DD2D27BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA73DD2C27BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DA73DD3227BBB87E00E117C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD3127BBB87E00E117C3 /* ContentView.swift */; };
 		DA73DD3427BBB87E00E117C3 /* MiniVendingMachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD3327BBB87E00E117C3 /* MiniVendingMachineApp.swift */; };
-		DA73DD3627BBB87E00E117C3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD3527BBB87E00E117C3 /* ComplicationController.swift */; };
 		DA73DD3827BBB87E00E117C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA73DD3727BBB87E00E117C3 /* Assets.xcassets */; };
 		DA73DD3B27BBB87E00E117C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA73DD3A27BBB87E00E117C3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -66,7 +65,6 @@
 		DA73DD2C27BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mini Vending Machine WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA73DD3127BBB87E00E117C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA73DD3327BBB87E00E117C3 /* MiniVendingMachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniVendingMachineApp.swift; sourceTree = "<group>"; };
-		DA73DD3527BBB87E00E117C3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		DA73DD3727BBB87E00E117C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA73DD3A27BBB87E00E117C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA73DD3C27BBB87E00E117C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			children = (
 				DA73DD3127BBB87E00E117C3 /* ContentView.swift */,
 				DA73DD3327BBB87E00E117C3 /* MiniVendingMachineApp.swift */,
-				DA73DD3527BBB87E00E117C3 /* ComplicationController.swift */,
 				DA73DD3727BBB87E00E117C3 /* Assets.xcassets */,
 				DA73DD3C27BBB87E00E117C3 /* Info.plist */,
 				DA73DD3927BBB87E00E117C3 /* Preview Content */,
@@ -260,7 +257,6 @@
 			files = (
 				DA73DD3427BBB87E00E117C3 /* MiniVendingMachineApp.swift in Sources */,
 				DA73DD3227BBB87E00E117C3 /* ContentView.swift in Sources */,
-				DA73DD3627BBB87E00E117C3 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +402,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mini Vending Machine WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Mini Vending Machine WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,7 +433,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mini Vending Machine WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Mini Vending Machine WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
