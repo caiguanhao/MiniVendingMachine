@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA73DD2227BBB87D00E117C3 /* Mini Vending Machine WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA73DD2127BBB87D00E117C3 /* Mini Vending Machine WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA73DD2227BBB87D00E117C3 /* Mini Vending Machine.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA73DD2127BBB87D00E117C3 /* Mini Vending Machine.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DA73DD2727BBB87E00E117C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA73DD2627BBB87E00E117C3 /* Assets.xcassets */; };
 		DA73DD2D27BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA73DD2C27BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DA73DD3227BBB87E00E117C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD3127BBB87E00E117C3 /* ContentView.swift */; };
 		DA73DD3427BBB87E00E117C3 /* MiniVendingMachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD3327BBB87E00E117C3 /* MiniVendingMachineApp.swift */; };
 		DA73DD3827BBB87E00E117C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA73DD3727BBB87E00E117C3 /* Assets.xcassets */; };
 		DA73DD3B27BBB87E00E117C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA73DD3A27BBB87E00E117C3 /* Preview Assets.xcassets */; };
+		DA73DD4B27BBC55300E117C3 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD4A27BBC55300E117C3 /* Bluetooth.swift */; };
+		DA73DD4D27BBC63C00E117C3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD4C27BBC63C00E117C3 /* Model.swift */; };
+		DA73DD4F27BBC70000E117C3 /* PeripheralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD4E27BBC70000E117C3 /* PeripheralView.swift */; };
+		DA73DD5127BC1F0200E117C3 /* Notify.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DD5027BC1F0200E117C3 /* Notify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +55,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				DA73DD2227BBB87D00E117C3 /* Mini Vending Machine WatchKit App.app in Embed Watch Content */,
+				DA73DD2227BBB87D00E117C3 /* Mini Vending Machine.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +64,7 @@
 
 /* Begin PBXFileReference section */
 		DA73DD1D27BBB87D00E117C3 /* Mini Vending Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Vending Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA73DD2127BBB87D00E117C3 /* Mini Vending Machine WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Vending Machine WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA73DD2127BBB87D00E117C3 /* Mini Vending Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Vending Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA73DD2627BBB87E00E117C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA73DD2C27BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mini Vending Machine WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA73DD3127BBB87E00E117C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +72,10 @@
 		DA73DD3727BBB87E00E117C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA73DD3A27BBB87E00E117C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA73DD3C27BBB87E00E117C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA73DD4A27BBC55300E117C3 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		DA73DD4C27BBC63C00E117C3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DA73DD4E27BBC70000E117C3 /* PeripheralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralView.swift; sourceTree = "<group>"; };
+		DA73DD5027BC1F0200E117C3 /* Notify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DA73DD1D27BBB87D00E117C3 /* Mini Vending Machine.app */,
-				DA73DD2127BBB87D00E117C3 /* Mini Vending Machine WatchKit App.app */,
+				DA73DD2127BBB87D00E117C3 /* Mini Vending Machine.app */,
 				DA73DD2C27BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -111,7 +119,11 @@
 		DA73DD3027BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DA73DD4C27BBC63C00E117C3 /* Model.swift */,
+				DA73DD5027BC1F0200E117C3 /* Notify.swift */,
+				DA73DD4A27BBC55300E117C3 /* Bluetooth.swift */,
 				DA73DD3127BBB87E00E117C3 /* ContentView.swift */,
+				DA73DD4E27BBC70000E117C3 /* PeripheralView.swift */,
 				DA73DD3327BBB87E00E117C3 /* MiniVendingMachineApp.swift */,
 				DA73DD3727BBB87E00E117C3 /* Assets.xcassets */,
 				DA73DD3C27BBB87E00E117C3 /* Info.plist */,
@@ -162,7 +174,7 @@
 			);
 			name = "Mini Vending Machine WatchKit App";
 			productName = "Mini Vending Machine WatchKit App";
-			productReference = DA73DD2127BBB87D00E117C3 /* Mini Vending Machine WatchKit App.app */;
+			productReference = DA73DD2127BBB87D00E117C3 /* Mini Vending Machine.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		DA73DD2B27BBB87E00E117C3 /* Mini Vending Machine WatchKit Extension */ = {
@@ -256,7 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA73DD3427BBB87E00E117C3 /* MiniVendingMachineApp.swift in Sources */,
+				DA73DD4B27BBC55300E117C3 /* Bluetooth.swift in Sources */,
+				DA73DD5127BC1F0200E117C3 /* Notify.swift in Sources */,
 				DA73DD3227BBB87E00E117C3 /* ContentView.swift in Sources */,
+				DA73DD4F27BBC70000E117C3 /* PeripheralView.swift in Sources */,
+				DA73DD4D27BBC63C00E117C3 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +417,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mini Vending Machine WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Mini Vending Machine WatchKit Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mini Vending Machine";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Scan Mini Vending Machines";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Connect to Mini Vending Machines";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -410,7 +428,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.Mini-Vending-Machine.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.mini-vending-machine.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -432,7 +450,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mini Vending Machine WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Mini Vending Machine WatchKit Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mini Vending Machine";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Scan Mini Vending Machines";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Connect to Mini Vending Machines";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,7 +461,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.Mini-Vending-Machine.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.mini-vending-machine.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -463,11 +483,10 @@
 				DEVELOPMENT_TEAM = QR6NCKN8AB;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Mini_Vending_Machine_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Mini Vending Machine WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.Mini-Vending-Machine.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.mini-vending-machine.watchkitapp";
+				PRODUCT_NAME = "Mini Vending Machine";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -488,11 +507,10 @@
 				DEVELOPMENT_TEAM = QR6NCKN8AB;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Mini_Vending_Machine_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Mini Vending Machine WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.Mini-Vending-Machine.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.mini-vending-machine.watchkitapp";
+				PRODUCT_NAME = "Mini Vending Machine";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -509,7 +527,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QR6NCKN8AB;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.Mini-Vending-Machine";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.mini-vending-machine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -522,7 +540,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QR6NCKN8AB;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.Mini-Vending-Machine";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cghtest.mini-vending-machine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
